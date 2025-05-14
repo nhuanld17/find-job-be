@@ -11,7 +11,7 @@ public class UpdateEmployeeProfileResponse {
     private String fullName;
     private String email;
     private String phoneNumber;
-    private UpdateEmployeeProfileResponse.DateOfBirth dateOfBirth;
+    private DateOfBirth dateOfBirth;
     private String gender;
     private String location;
     private String token;

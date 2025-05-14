@@ -10,7 +10,7 @@ public class UpdateEmployeeProfileRequest {
     private String fullName;
     private String email;
     private String phoneNumber;
-    private UpdateEmployeeProfileRequest.DateOfBirth dateOfBirth;
+    private DateOfBirth dateOfBirth;
     private String gender;
     private String location;
 
