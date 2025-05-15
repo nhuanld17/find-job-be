@@ -51,7 +51,7 @@ public class NotificationService {
         ).getRecruiter();
         String username = employee.getUser().getUsername();
         Notification notification = new Notification();
-        notification.setMessage("Your application was not successful. Please check your email for more details. Thank you for your interest!");
+        notification.setMessage("Your application was successful. Please check your email for more details. Thank you for your interest!");
         notification.setEmployee(employee);
         notification.setRecruiter(recruiter);
         notificationRepository.save(notification);
